@@ -99,10 +99,6 @@ void SensorInit()
 
     magnetometerSensor = new LIS2MDLSensor(*i2c);
     magnetometerSensor->init(NULL);
-
-    humidity = -1;
-    //temperature = -1000;
-    pressure = -1;
 }
 
 void getTemperatureValue(float *t)
