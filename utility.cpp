@@ -196,8 +196,8 @@ void readMessage(int messageId, char *payload, float *temperatureValue, float *h
 
     //float t = readTemperature();
     readTemperature();
-    float h = readHumidity();
-    float p = readPressure();
+    readHumidity();
+    readPressure();
     readMagentometer();
     readAccelerometer();
     readGyroscope();
